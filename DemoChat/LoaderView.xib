@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoaderView" customModule="DemoChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QSS-qo-RC0">
+                    <rect key="frame" x="5" y="5" width="70" height="20"/>
+                    <subviews>
+                        <view clipsSubviews="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pxp-8b-pg3">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                        <view clipsSubviews="YES" tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofs-B5-55N">
+                            <rect key="frame" x="25" y="0.0" width="20" height="20"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                        <view clipsSubviews="YES" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxz-BP-Jmo">
+                            <rect key="frame" x="50" y="0.0" width="20" height="20"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="sDD-mo-QlX"/>
+                        <constraint firstAttribute="width" constant="70" id="x7w-3d-nnb"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QSS-qo-RC0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="Esb-CN-gvO"/>
+                <constraint firstItem="QSS-qo-RC0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="uhK-md-Euj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-78" y="-143"/>
+        </view>
+    </objects>
+</document>
